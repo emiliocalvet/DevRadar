@@ -25,7 +25,7 @@ module.exports = {
       if (!name)
         name = login;
       if (!bio)
-        bio = '...';
+        bio = 'Usuário não possui biografia';
 
       dev = await Dev.create({
         github_username,
